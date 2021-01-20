@@ -7,6 +7,8 @@ tax = [0.2476, 0.2613, 0.267, 0.2720, 0.2767, 0.2813, 0.286, 0.2903, 0.2979] # 2
 annual_savings = 0.8 # savings percentage
 rent = 10800 # annual rent
 
+def main()
+
 dim = list([
     dict(range = [70000, 120000],
         ticktext = [],

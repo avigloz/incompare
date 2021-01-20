@@ -4,16 +4,14 @@ Creates a plotly visualization for income comparison (relative to rent, savings,
 Current state: **alpha** software, not ready for use; features (as described below) do not function fully.
 
 ## Getting started
-Dependencies:
+
+### Dependencies
 - `plotly` (`$ pip install plotly`)
+### Usage
 
-`python3 ic.py`
+This will display information as a parallel coordinates plot in your web browser, as well as a text-based summary in STDOUT.
 
-This will display information as a parallel coordinates plot in your web browser, as well as in STDOUT.
-
-### Usage:
-
-`python3 ic.py [-s] [-z] [-i] [-r] [-d]`
+`$ python3 ic.py [-s] [-z] [-i] [-r] [-d]`
 
 - `-s` -> percentage of annual salary dedicated to savings
 - `-z` -> zipcode override
@@ -23,7 +21,7 @@ This will display information as a parallel coordinates plot in your web browser
 
 Passing in these arguments is not *required*, but aside from fetching your income tax rates, incompare will default to hard-coded values, which may not reflect your own situation.
 
-### Note:
+### Note
 
 incompare does not take into account expenses such as groceries, gas, childcare, gifts, vacation, or fancy dinners. Do keep these costs in mind when looking at numbers shown in graphs.
 
