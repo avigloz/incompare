@@ -73,7 +73,7 @@ fig = go.Figure(data=
     )
 )
 fig.update_layout(
-    title="Income Comparison (living in Jersey City, working in NYC)",
+    title="Income Comparison",
     title_x = 0.02,
     title_y = 0.98,
     plot_bgcolor = 'white',
