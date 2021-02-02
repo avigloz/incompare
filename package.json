@@ -1,0 +1,24 @@
+{
+  "name": "incompare",
+  "version": "1.0.0",
+  "description": "Creates a plotly visualization for income comparison (relative to rent, savings, etc.) ",
+  "main": "ic.ts",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avigloz/incompare.git"
+  },
+  "author": "Avi Glozman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avigloz/incompare/issues"
+  },
+  "homepage": "https://github.com/avigloz/incompare#readme"
+}

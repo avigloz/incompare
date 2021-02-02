@@ -1,19 +1,27 @@
 # incompare
 Creates a plotly visualization for income comparison (relative to rent, savings, etc.)
 
-Current state: **alpha** software, not ready for use; features (as described below) do not function fully.
+Current state: **alpha** software, not ready for use; features (as described below) do not function fully. **Undergroing re-write.**
 
 ## Getting started
 
 ### Dependencies
-- `plotly` (`$ pip install plotly`)
+- `plotly`
+- `axios`
+- TypeScript
+
+### Building
+
+`tcs ic.ts`
+(or just run `node run [args...]`, which will build, and run whichever arguments)
+ 
 ### Usage
 
 This will display information as a parallel coordinates plot in your web browser, as well as a text-based summary in STDOUT.
 
-`$ python3 ic.py [-s] [-z] [-i] [-r] [-d]`
+`$ node ic.js [-s] [-z] [-i] [-r] [-d]`
 
-- `-s` -> percentage of annual salary dedicated to savings
+- `-s` -> percentage of annual salary dedicated to savings (e.g 0.5)
 - `-z` -> zipcode override
 - `-i` -> comma-separated list of incomes to include
 - `-r` -> annual rent (1 month's rent * 12)
