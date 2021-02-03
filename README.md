@@ -13,7 +13,6 @@ Current state: **alpha** software, not ready for use; features (as described bel
 ### Building
 
 `tcs ic.ts`
-(or just run `node run [args...]`, which will build, and run whichever arguments)
  
 ### Usage
 
@@ -31,7 +30,7 @@ Passing in these arguments is not *required*, but aside from fetching your incom
 
 ### Note
 
-incompare does not take into account expenses such as groceries, gas, childcare, gifts, vacation, or fancy dinners. Do keep these costs in mind when looking at numbers shown in graphs.
+incompare does not take into account expenses such as non-incomes taxes, groceries, gas, childcare, gifts, vacation, or fancy dinners. Do keep these costs in mind when looking at numbers shown in graphs.
 
 incompare will automatically get income tax rates using your approximate location (**guaranteed functionality within USA only**), so that it can display relevant information. Zipcode override can also be provided, to see the graph for a different place.
 
