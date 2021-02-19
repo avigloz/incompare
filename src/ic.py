@@ -68,13 +68,13 @@ def argParse() -> list:
     for i, a in enumerate(args):
         if (a == "-h" or a == "--help"):
             print("Usage:\n" + 
-                "$ python3 ic.py [-s] [-z] [-i] [-r] [-d]\n\n" + 
-                "-s -> percentage of annual salary dedicated to savings\n" + 
-                "-z -> zipcode override\n" + 
-                "-i -> comma-separated list of incomes to include\n" + 
-                "-r -> annual rent (1 month's rent * 12)\n" + 
+                "$ python3 ic.py [-s] [-z] [-i] [-r] [-d]\n" + 
+                "-s -> percentage of annual salary dedicated to savings\n\n" + 
+                "-z -> zipcode override\n\n" + 
+                "-i -> comma-separated list of incomes to include\n\n" + 
+                "-r -> annual rent (1 month's rent * 12)\n\n" + 
                 "-d -> total (college) debt (adding estimated interest over time to this number in advance would be ideal)\n\n" +
-                "-r FORMAT: 1,2,3,4 (comma-separated, no spaces, just integers)\n" +
+                "-r FORMAT: 1,2,3,4 (comma-separated, no spaces, just integers)\n\n" +
                 "-s FORMAT: 0.5 or 0.75 (any decimal %)"
             )
             exit(0)
