@@ -41,5 +41,3 @@ incompare does not store any information anywhere.
 I'm a computer science new-grad, and I'm in debt ($100k+) thanks to exorbitant costs of tuition in the U.S.A.
 
 I've written incompare ("income compare") to see an approximation of how various salaries will effect my quality of life and future planning going forward.
-
-As of right now, I am still unemployed and accumulating more debt via interest.
